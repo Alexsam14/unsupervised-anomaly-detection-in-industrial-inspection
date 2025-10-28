@@ -23,3 +23,6 @@ setup(
     packages=find_packages(),
     install_requires=get_requirements('requiements.txt')
 )
+
+if __name__=="__main__":
+    logging.info('Loggging has started')
