@@ -18,11 +18,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='unsupervised-anomaly-detection-in-industrial-inspection',
     version='0.0.1',
-    author='Alex'
-    author_email='samalex460@gmail.com'
+    author='Alex',
+    author_email='samalex460@gmail.com',
     packages=find_packages(),
-    install_requires=get_requirements('requiements.txt')
+    install_requires=get_requirements('requirements.txt')
 )
-
-if __name__=="__main__":
-    logging.info('Loggging has started')
